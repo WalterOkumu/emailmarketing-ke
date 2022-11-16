@@ -6,6 +6,7 @@ import Lead from '../components/Lead'
 import Testimonials from '../components/Testimonial'
 import About from '../components/About'
 import Info from '../components/Info'
+import Details from '../components/Details'
 
 export default function Home() {
   return (
@@ -21,9 +22,9 @@ export default function Home() {
           <Header />
           <Hero />
         </div>
+        <Details />
         <About />
         <Info />
-        <Lead />
         <Testimonials />
       </main>
 

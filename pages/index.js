@@ -7,6 +7,7 @@ import Testimonials from '../components/Testimonial'
 import About from '../components/About'
 import Details from '../components/Details'
 import Info from '../components/Info'
+import ContactForm from '../components/ConctactForm'
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
         <Details />
         <About />
         <Info />
+        <ContactForm />
         {/*<Lead />*/}
         {/*<Testimonials />*/}
     </div>

@@ -3,7 +3,7 @@
 export default function Lead() {
     return(
         <section className="mt-16 mx-auto md:w-2/4 px-5">
-            <h2 className="text-5xl mb-2 font-bold text-left pl-5"> Make your business reach over 4000 customers with a single email! </h2>
+            <h2 className="text-5xl mb-2 font-bold text-left pl-5 text-[#FDEA03]"> Make your business reach over 4000 customers with a single email! </h2>
             <h3 className="text-base mb-7 text-center pl-1">Fill in the fields below to obtain the 
             desired information free of charge</h3>
             {/*<div className="flex flex-col justify-center items-center gap-4 mt-8">

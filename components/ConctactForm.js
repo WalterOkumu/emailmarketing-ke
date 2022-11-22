@@ -2,8 +2,9 @@
 export default function ContactForm() {
     return (
           <section className="mt-20 mx-auto md:w-2/4 px-5">
-            <h3 className="text-base mb-7 text-center pl-1">Fill in the fields below to obtain the 
-            desired information free of charge</h3>
+            <h3 className="text-base mb-7 text-center">
+                Fill in the fields below to obtain our Black Friday special offer   
+            </h3>
             {/*<div className="flex flex-col justify-center items-center gap-4 mt-8">
                 <div>
                     <label htmlFor="nome" className="font-bold text-sm">Name: </label>
@@ -19,7 +20,7 @@ export default function ContactForm() {
                 </div>
                 <button className="bg-[#FBED04] mt-2 px-8 py-1 rounded font-bold text-sm md:w-auto w-1/2">Submit</button>
             </div>*/}
-            <div id="mlb2-5795093" className="ml-form-embedContainer ml-subscribe-form ml-subscribe-form-5795093">
+            <div id="mlb2-5795093" className="text-center ml-form-embedContainer ml-subscribe-form ml-subscribe-form-5795093">
                     <div className="ml-form-align-center">
                         <div className="ml-form-embedWrapper embedForm">
                         <div className="ml-form-embedBody ml-form-embedBodyDefault row-form">

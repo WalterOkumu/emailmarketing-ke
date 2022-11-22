@@ -66,6 +66,7 @@
   letter-spacing: normal !important;
 }
 #mlb2-5795093.ml-form-embedContainer .ml-form-embedWrapper {
+  /*background-color: #fff;*/
   border-width: 0;
   border-color: transparent;
   border-radius: 4px;
@@ -88,7 +89,7 @@
   text-align: left;
 }
 #mlb2-5795093.ml-form-embedContainer .ml-form-align-center {
-  text-align: center;
+  /*text-align: center;*/
 }
 #mlb2-5795093.ml-form-embedContainer .ml-form-align-default {
   display: table-cell !important;
@@ -113,7 +114,7 @@
 #mlb2-5795093.ml-form-embedContainer
   .ml-form-embedWrapper
   .ml-form-successBody {
-  padding: 20px 20px 0 20px;
+  /*padding: 20px 20px 0 20px;*/
 }
 #mlb2-5795093.ml-form-embedContainer
   .ml-form-embedWrapper

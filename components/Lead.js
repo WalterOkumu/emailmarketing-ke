@@ -3,7 +3,7 @@
 export default function Lead() {
     return(
         <section className="mt-16 mx-auto">
-            <h2 className="text-5xl mb-2 font-bold text-center md:text-left text-[#FDEA03]"> Make your business reach over 4000 customers with a single email! </h2>
+            <h2 className="text-5xl mb-2 font-bold text-center md:text-left text-[#FDEA03]"> Make your business count and reach over 4000 customers with a single mail!  </h2>
             <h3 className="text-base text-center md:text-left mb-3">
                 Fill in the fields below to obtain our Black Friday special offer 
             </h3>

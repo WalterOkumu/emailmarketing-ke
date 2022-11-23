@@ -7,11 +7,11 @@ export default function Footer() {
         <div className="text-left">
           <p className="text-2xl">Websites</p>
           <ul className="pt-4 gap-1 flex flex-col text-gray-300 text-sm">
-            <li className="hover:underline underline-offset-4"><a href="https://www.paginasamarelas.cv" target="_blank">Cabo Verde</a></li>
-            <li className="hover:underline underline-offset-4"><a href="https://www.paginasamarelas.co.mz" target="_blank">Mozambique</a></li>
-            <li className="hover:underline underline-offset-4"><a href="https://www.pajinakinur.tl" target="_blank">Timor Leste</a></li>
-            <li className="hover:underline underline-offset-4"><a href="https://www.paginasamarelas.st" target="_blank">Sao Tome</a></li>
-            <li className="hover:underline underline-offset-4"><a href="https://www.yellow.co.tz" target="_blank">Tanzania</a></li>
+            <li className="hover:underline underline-offset-4"><a href="https://www.paginasamarelas.cv" target="_blank" rel="noreferrer">Cabo Verde</a></li>
+            <li className="hover:underline underline-offset-4"><a href="https://www.paginasamarelas.co.mz" target="_blank" rel="noreferrer">Mozambique</a></li>
+            <li className="hover:underline underline-offset-4"><a href="https://www.pajinakinur.tl" target="_blank" rel="noreferrer">Timor Leste</a></li>
+            <li className="hover:underline underline-offset-4"><a href="https://www.paginasamarelas.st" target="_blank" rel="noreferrer">Sao Tome</a></li>
+            <li className="hover:underline underline-offset-4"><a href="https://www.yellow.co.tz" target="_blank" rel="noreferrer">Tanzania</a></li>
           </ul>
         </div>
         <div className="text-sm text-left">

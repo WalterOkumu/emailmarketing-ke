@@ -8,10 +8,11 @@ import About from '../components/About'
 import Details from '../components/Details'
 import Info from '../components/Info'
 import ContactForm from '../components/ConctactForm'
+import Footer from '../components/Footer'
 
 export default function Home() {
   return (
-    <div className='pb-10'>
+    <div>
         <div className='pt-8 md:h-screen px-10 bg-[#181818]'>
           <Header />
           <Hero />
@@ -20,6 +21,7 @@ export default function Home() {
         <About />
         <Info />
         <ContactForm />
+        <Footer />
         {/*<Lead />*/}
         {/*<Testimonials />*/}
     </div>

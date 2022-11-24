@@ -2,13 +2,13 @@ import { FaEnvelope, FaPhoneAlt } from 'react-icons/fa';
 
 export default function Footer() {
   return (
-    <section className="mt-16 bg-[#181818] flex flex-col">
-      <div className="grid md:grid-cols-3 text-[#f8f8ff] py-16 md:p-12 mx-auto gap-14 md:gap-28">
-        <div className="text-left">
-          <p className="text-2xl">Website</p>
-          <ul className="pt-4 gap-1 flex flex-col text-gray-300 text-sm">
-            <li className="hover:underline underline-offset-4"><a href="https://www.yellowpageskenya.com" target="_blank" rel="noreferrer">www.yellowpageskenya.com</a></li>
-          </ul>
+    <section className="mt-16 bg-[#181818]">
+      <div className="grid md:grid-cols-3 text-[#f8f8ff] py-16 md:p-12 m-auto gap-14 md:gap-16 max-w-5xl place-items-center">
+        <div className="text-left text-sm">
+          <p className="text-2xl mb-3">Address</p>
+          <p className='text-gray-300'>
+            Muthithi Road, Mitsumi Business Park, 8th Floor Nairóbi, Quénia 00100
+          </p>
         </div>
         <div className="text-sm text-left">
           <p className="text-2xl mb-3">Email</p>

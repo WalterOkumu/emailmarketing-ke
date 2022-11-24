@@ -2,8 +2,8 @@
 
 export default function Lead() {
     return(
-        <section className="mt-16 mx-auto">
-            <h2 className="md:text-5xl text-3xl mb-2 font-bold text-center md:text-left text-[#FDEA03]"> Make your business count and reach over 4000 customers with a single mail!  </h2>
+        <section className="mt-8 mx-auto">
+            <h2 className="md:text-5xl text-3xl mb-2 font-bold text-center md:text-left text-[#FDEA03]"> Distinguish your business from competition with a reach of over 4,000 customers on a single email! </h2>
             <h3 className="text-base text-center md:text-left mb-3">
                 Fill in the fields below to obtain our Black Friday special offer 
             </h3>
@@ -61,7 +61,7 @@ export default function Lead() {
                         </div>
                         </div>
                     </div>
-        </div>
+                </div>
            {/* <div class="ml-form-embed"
                 data-account="3897995:m7g9o3p2y5"
                 data-form="5795093:l2h1b5">

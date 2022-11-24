@@ -3,22 +3,18 @@ import { FaEnvelope, FaPhoneAlt } from 'react-icons/fa';
 export default function Footer() {
   return (
     <section className="mt-16 bg-[#181818] flex flex-col">
-      <div className="grid md:grid-cols-3 text-[#f8f8ff] py-16 md:p-16 mx-auto gap-20 md:gap-28">
+      <div className="grid md:grid-cols-3 text-[#f8f8ff] py-16 md:p-12 mx-auto gap-14 md:gap-28">
         <div className="text-left">
-          <p className="text-2xl">Websites</p>
+          <p className="text-2xl">Website</p>
           <ul className="pt-4 gap-1 flex flex-col text-gray-300 text-sm">
-            <li className="hover:underline underline-offset-4"><a href="https://www.paginasamarelas.cv" target="_blank" rel="noreferrer">Cabo Verde</a></li>
-            <li className="hover:underline underline-offset-4"><a href="https://www.paginasamarelas.co.mz" target="_blank" rel="noreferrer">Mozambique</a></li>
-            <li className="hover:underline underline-offset-4"><a href="https://www.pajinakinur.tl" target="_blank" rel="noreferrer">Timor Leste</a></li>
-            <li className="hover:underline underline-offset-4"><a href="https://www.paginasamarelas.st" target="_blank" rel="noreferrer">Sao Tome</a></li>
-            <li className="hover:underline underline-offset-4"><a href="https://www.yellow.co.tz" target="_blank" rel="noreferrer">Tanzania</a></li>
+            <li className="hover:underline underline-offset-4"><a href="https://www.yellowpageskenya.com" target="_blank" rel="noreferrer">www.yellowpageskenya.com</a></li>
           </ul>
         </div>
         <div className="text-sm text-left">
           <p className="text-2xl mb-3">Email</p>
           <div className='flex items-center gap-2'>
             <FaEnvelope />
-            <p className="text-gray-300">info@yellowpageskenya.com</p>
+            <a className="text-gray-300" href='mailto:info@yellowpageskenya.com'>info@yellowpageskenya.com</a>
           </div>
           {/*<p className="text-2xl mt-8 mb-3">Phones</p>
           <div className='flex items-center gap-2'>
@@ -30,7 +26,7 @@ export default function Footer() {
           <p className="text-2xl mb-3">Phones</p>
           <div className='flex items-center justify-start gap-2'>
             <FaPhoneAlt />
-            <p className="text-gray-300">Tel: +254 020 7800 701</p>
+            <p className="text-gray-300">Tel: <a href='tel:+254 020 7800 701'>+254 020 7800 701</a></p>
           </div>
         </div>
       </div>

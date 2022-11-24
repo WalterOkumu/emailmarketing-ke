@@ -10,7 +10,7 @@ export default function Info() {
     const effective = '/effective.png';
 
     return (
-        <section className="flex flex-col justify-center items-center mt-40 mx-auto gap-16 w-3/4">
+        <section className="flex flex-col justify-center items-center mt-20 mx-auto gap-16 w-3/4">
             <h3 className="text-3xl font-bold text-center md:w-1/2 w-full">
                 How do we do it?</h3>
 

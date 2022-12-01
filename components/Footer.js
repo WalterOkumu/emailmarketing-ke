@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="text-left text-sm w-1/2 md:w-11/12">
           <p className="text-2xl mb-3">Address</p>
           <p className='text-gray-300'>
-            Muthithi Road, Mitsumi Business Park, 8th Floor Nairóbi, Quénia 00100
+            Muthithi Road, Mitsumi Business Park, 8th Floor Nairóbi, 00100
           </p>
         </div>
         <div className="text-sm text-left w-1/2 md:w-11/12">

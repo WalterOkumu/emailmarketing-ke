@@ -3,9 +3,9 @@
 export default function Lead() {
     return(
         <section className="mt-8 mx-auto">
-            <h2 className="md:text-5xl text-3xl mb-2 font-bold text-center md:text-left text-[#FDEA03]"> Distinguish your business from competition with a reach of over 4,000 customers on a single email! </h2>
-            <h3 className="text-base text-center md:text-left mb-3">
-                Fill in the fields below to obtain our Black Friday special offer 
+            <h2 className="md:text-5xl text-3xl mb-2 font-bold text-left text-[#FDEA03]"> Distinguish your business from competition with a reach of over 4,000 customers on a single email! </h2>
+            <h3 className="text-base mb-3">
+                Fill in the fields below to obtain a special offer of 30% OFF
             </h3>
             {/*<div className="flex flex-col justify-center items-center gap-4 mt-8">
                 <div>

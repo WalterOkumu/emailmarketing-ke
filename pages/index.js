@@ -13,7 +13,7 @@ import Footer from '../components/Footer'
 export default function Home() {
   return (
     <div>
-        <div className='pt-8 md:h-screen px-10 bg-[#181818]'>
+        <div className="pt-8 md:h-screen px-10 bg-no-repeat bg-cover bg-[url('../public/background-hero-mobile.png')] xl:bg-[url('../public/background-hero.png')]">
           <Header />
           <Hero />
         </div>
